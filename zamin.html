@@ -1,44 +1,105 @@
 <!DOCTYPE html>
-
-<!-- This is Home Page-->
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>  Zamin Traders Home </title>
-	<h1> ZAMIN TRADERS </h1>
-
-
-
-<!-- Navigation Links -->
-
-		<div class="navbar">
-	<nav>
-
-		<a href="zamin.html"> <i class="fa fa-icons-home.png"></i> Home </a> |
-  			<a href="zamin-contact.html">Contact Us</a> |
-		<a href="about-zamin.html">About Us</a> |
-		<a href="https://www.google.co.uk/">Google</a> |
-</nav>
-</div>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="zamin-home.css">
+    <title>ZAMIN TRADERS</title>
+    <link rel="icon" type="image/logo-icon" href="ZAMIN TRADERS Logo.png">
+    
 </head>
-<body>
-	
 
-	
-<hr>
-<h3 style="color: darkred;"> ZAMIN TRADERS</h3>
-
-<p> ZAMIN TRADERS General Order Supplier,Building Repair & Maintance  </p>
-
-
+    <header>
+        <h2 class="hd-1">ZAMIN TRADERS</h2>
+        <div class="logo">
+            <img src="ZAMIN TRADERS Logo.png" alt="ZAMIN TRADERS Logo" >
+           
+        </div>
+        
+    </header>
+    <body>
+<!--  JS -->
 <br>
-<h3> Out Clients </h3>
-<a href="pso.html"> 
-<img src="pso-head-office-1.jpg" alt="PSO HEAD OFFICE" width="400" height="300">
-<abbr title="Pakistan State Oil ">PSO</abbr>
-</a>
-<hr>
-<footer></footer>
+
+
+
+<div id="clockdate">
+  <div class="clockdate-wrapper">
+    <div id="clock"></div>
+    <div id="date"></div>
+  </div>
+</div>
+
+<script type="text/javascript" src="time-date.js" > </script>
+<!-- End JS-->
+
+<!-- Data and time with JS  -->
+
+         <div class="heading-1" >
+<h1 > <marquee direction="right" scrollamount="10">Welcome To Zamin Traders </marquee></h1>
+</div>
+        <!-- Navigation Bar-->
+        <div class="home-nav">
+        <nav class="home-navbar">
+            <ul class="nav-links">
+                <li><a href="#" class="hm">Home</a></li>
+                <li><a href="zamin-contact.html">Contact Us</a></li>
+                <li><a href="about-zamin.html">About Us</a></li>
+                <li><a href="https://www.google.com" target="_blank">Google</a></li>
+            </ul>
+        </nav>
+        </div>
+        <!--  Clients -->
+    <main>
+       
+        <section class="services">
+
+            <!--   -->
+            <h2>Our Services</h2>
+            <p class="paragraph-1"> General Order Supplier,Building Repair & Maintance. 
+            We provide all office services & office works
+
+            
+
+        </p>
+            <p><br>We are specialized as General Order Supplier and committed to setting the highest standards of various kind of supplies of Materials and Furniture & Fixtures to large corporate clients.</p>
+        </section>
+<!--   -->
+        <section class="clients">
+            <h2>Our Valued Clients</h2>
+            <div class="client">
+                <a href="#"><img class="pso-1" src="pso-head-office-1.jpg" alt="Pakistan State Oil" title="Pakistan State Oil"><br></a>
+                <figcaption>PSO.</figcaption>
+            </div>
+            <div class="client">
+                <a href="#"><img class="kg1" src="kg.jpeg" alt="Karachi Gymkhana" title="Karachi Gymkhana"><br></a>
+        <figcaption>K.G.</figcaption>
+
+
+            </div>
+            <div class="client">
+                <a href="#"><img class="iba" src="iba.jpg" alt="Institute of Business Administration" title="Institute of Business Administration"> <br> </a>
+                <figcaption>IBA</figcaption>
+            </div>
+             <div class="client">
+                <a href="#"><img class="pia" src="pia.jpg" alt="Pakistan International Airlines" title="Pakistan International Airlines"> <br> </a>
+
+                <figcaption>PIA</figcaption>
+            </div>
+        </section>
+    </main>
+
+<!-- Footer  -->
+    <footer>
+        <nav>
+            <ul class="footer-nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="zamin-contact.html">Contact Us</a></li>
+                <li><a href="about-zamin.html">About Us</a></li>
+                <li><a href="https://www.google.com" target="_blank">Google</a></li>
+            </ul>
+        </nav>
+        <p>&copy; 2006 <strong>Zamin Traders.</strong> <br>All Rights.</p>
+    </footer>
 </body>
 </html>
