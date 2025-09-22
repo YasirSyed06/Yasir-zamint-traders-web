@@ -1,0 +1,360 @@
+body {
+    
+    color: #696969;
+     background-color: #FFFAFA;
+    
+}
+
+
+/* home heading-1 */
+
+.hd-1
+{
+color: #DCDCDC;
+    text-align: center;
+    animation: blinker  1.5s linear  infinite;
+}
+/* About-us heading-1 Blinker*/
+
+@keyframes blinker{
+
+50% {
+    opacity: 0;
+
+}
+}
+
+/*Headind-1 */
+
+.heading-1{ 
+
+     word-spacing: 5px;
+     
+    color:  #696969; 
+    text-align: center;
+    
+    padding-top: 5px;
+    padding-bottom: 0px;
+    
+     margin-top: 10px;
+
+
+}
+
+
+header {
+    background-color: #1E90FF;
+     
+    padding: 20px;
+       margin:-16px ;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+    
+.logo img {
+    max-width: 170px;
+    height: auto;
+    margin-right: 10px;
+
+    
+}
+
+
+/* Style the navigation menu */
+.home-navbar{
+
+padding-top: -1em;
+margin-top: -15x;
+
+}
+
+ul.nav-links {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #696969; /* Dark gray color for the navigation bar*/ 
+}
+
+ul.nav-links li {
+    /*
+    margin-right: 20px;
+    */
+    float: left;
+}
+
+
+/*
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+*/
+/* Top Nav hover */
+ .nav-links a:hover {
+    color: hotpink;
+}
+
+/* Top active link color will change top nav*/
+
+.home-navbar a:active{
+color: #E6E6FA  ;
+    background-color: transparent;
+  text-decoration: underline;
+
+}
+
+
+
+ul.nav-links li a {
+  display: block;
+  
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+ul.nav-links li a.hm {
+    background-color: #0486aa;}
+
+ul.nav-links li.right {
+    float: right;
+
+}
+nav ul li a {
+    text-decoration: none;
+    color: #00BFFF; /* Light blue color for navigation links */
+    font-weight: bold;
+    transition: color 0.3s ease; /* Add a smooth color transition on hover */
+}
+
+/* main*/
+
+.main {
+    padding: 20px;
+    background-color: #DCDCDC;
+}
+
+/* footer*/
+
+footer {
+   background-color: #1E90FF; /* Blue color for the footer */
+    color: #DCDCDC;
+    text-align: center;
+    padding-bottom: 16px;
+    
+    /*padding: 10px 0;*/
+}
+/* Style the  footer navigation menu */
+ul.footer-nav-links
+{
+
+list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+ background-color: #696969;
+}
+
+ul.footer-nav-links li {
+    /*
+    margin-right: 20px;
+    */
+    float: left;
+}
+
+ul.footer-nav-links li a {
+display: block;
+text-align: center;
+padding: 14px 16px;
+text-decoration:none;
+}
+
+ul.footer-nav-links li a.hm {
+    background-color: #0486aa;}
+
+ul.footer-nav-links li.right {
+    float: right;
+    }
+
+.footer-nav-links a:hover {
+    color: hotpink;
+}
+/*------------------*/
+/*
+
+footer .footer-nav-links {
+    
+    display: flex;
+}
+
+
+footer .footer-nav-links li {
+    margin-right: 20px;
+}
+
+footer .footer-nav-links a {
+    text-decoration: none;
+    color: white;
+}
+*/
+/*---------Clients-----------*/
+.clients::after {
+    /*
+    text-align: left;
+    margin-top: 20px;
+    */
+    content: "";
+  clear: both;
+  display: table;
+  text-align: left;
+}
+
+.client img {
+    max-width: 100px;
+    height: auto;
+    margin: 10px;
+}
+.client{
+    float: left;
+ margin-right: 3px;
+  padding: 5px;
+  text-align: center;
+}
+
+/* meadia query*/
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    /*.logo {
+        
+    }*/
+
+    .logo img {
+
+        text-align: center;
+        flex-direction: column;
+
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    
+    nav .nav-links {
+        margin-top: 10px;
+    }
+
+    nav .nav-links li {
+        margin-right: 10px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    footer .footer-nav-links {
+        margin-top: 10px;
+    }
+
+    footer .footer-nav-links li {
+        margin-right: 10px;
+    }
+}
+
+.paragraph-1{
+text-align: center;
+     font-family: Trebuchet MS, sans-serif  ;
+    background-color:#DCDCDC;
+}
+/*IMG Hover */
+
+.pso-1:hover{
+-webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+transition: 1s ease;
+border-radius:50%;
+
+}
+.kg1:hover{
+-webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+transition: 1s ease;
+border-radius:50%;
+    
+}
+.iba:hover{
+-webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+transition: 1s ease;
+border-radius:50%;
+    
+}
+.pia:hover{
+-webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+transition: 1s ease;
+border-radius:50%;
+    
+}
+
+/*
+        Time and date
+
+
+
+*/
+/*
+
+@font-face{
+    font-family: 'Digital-7';
+    src:  url('fonts/digital-7.ttf') format('woff2'),   b ,g,mdrx
+    url('digital-7.woff') format('woff');
+}
+*/
+.clockdate-wrapper {
+   
+    padding:25px;
+    max-width:350px;
+    width:100%;
+    text-align:center;
+    border-radius:5px;
+    margin:0 auto;
+  
+}
+#clock{
+    font-family: Digital-7, 'sans-serif';
+    font-size:55px;
+    text-shadow:0px 0px 1px #fff;
+    color:#696969;
+}
+#clock span {
+
+    color: #696969;
+    
+    font-size:50px;
+    position:relative;
+    top:-5px;
+    left:10px;
+}
+#date {
+    letter-spacing:3px;
+    font-size:14px;
+    font-family:arial,sans-serif;
+    color:#696969;
+}
+
+/* end time and date*/
