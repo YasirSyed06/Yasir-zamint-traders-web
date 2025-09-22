@@ -1,0 +1,304 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    
+    
+    padding: 0px;
+    margin: 0px;
+
+}
+/* Body  */
+body{
+     background-color: #FFFAFA;
+      color: #696969;
+}
+
+/* Style the header */
+header {
+    background-color: #1E90FF; /* Blue color for the header */
+    
+    padding: 12.5px;
+       margin:-16px ;
+    }
+
+
+/* About-us heading-1 */
+
+.heading-1
+{
+color: #DCDCDC;
+    text-align: center;
+    animation: blinker  1.5s linear  infinite;
+}
+/* About-us heading-1 Blinker*/
+
+@keyframes blinker{
+
+50% {
+    opacity: 0;
+
+}
+}
+
+
+/*
+Top headingn2 ZAMIN TRADERS
+*/
+.abt-heading2{
+    word-spacing: 10px;
+     background-clip: text;
+     color: #696969;
+    text-align: center;
+    padding: 20px;
+}
+
+/* about us heading3*/
+ .heading-3{
+
+    color: #696969;
+ }
+
+/* Style the navigation menu */
+
+/*
+nav {
+    background-color: #696969; 
+    text-align: center;
+    padding: 10px;
+    padding-left: 0px;
+
+   list-style-type: none;
+    margin: 0px;
+    
+    overflow: hidden;
+    }
+*/
+/* Style the navigation menu */
+
+ul.ultopnav {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+ background-color: #696969; /* Dark gray color for the navigation bar*/ 
+
+}
+
+ul.ultopnav li {float: left;}
+
+
+ul.ultopnav li a {
+  display: block;
+  
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.ultopnav li a.hm {
+    background-color: #0486aa;}
+
+ul.ultopnav li.right {
+    float: right;
+
+}
+
+
+/*
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+*/
+/* Top or head nav style */
+nav ul li a {
+    text-decoration: none;
+    color: #00BFFF; /* Light slate gray color for navigation links */
+    font-weight: bold;
+    transition: color 0.3s ease; /* Add a smooth color transition on hover */
+}
+
+/* Nav hover */
+nav ul li a:hover {
+    color: hotpink; /* Change the link color on hover to the hotpink color */
+}
+
+/*Top active link color will change top nav*/
+
+.abt-nav a:active{
+color: #E6E6FA  ;
+    background-color: transparent;
+  text-decoration: underline;
+
+}
+
+
+/* Style the main content */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+#about {
+    margin-bottom: 30px;
+}
+
+/* Style the owner info */
+.owner-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.owner-info img {
+    max-width: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+
+
+/* paragraph */
+
+.paragraph-1{
+text-align: center;
+     font-family: Trebuchet MS, sans-serif  ;
+    background-color:#DCDCDC;
+}
+
+
+
+/* Style the  footer navigation menu */
+ul.ulft {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+ background-color: #696969;
+
+}
+
+ul.ulft li {
+
+    float: left;
+
+}
+
+
+ul.ulft li a {
+display: block;
+text-align: center;
+padding: 14px 16px;
+text-decoration:none;
+}
+
+ul.ulft li a.hm {background-color: #0486aa;}
+
+ul.ulft li.right {
+    float: right;
+    }
+
+/* Style the footer */
+
+footer {
+    background-color: #1E90FF; /* Blue color for the footer */
+    color: #DCDCDC;
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+/* footer active link color will change footer nav*/
+.abt-footer a:active{
+color: #E6E6FA  ;
+    background-color: transparent;
+  text-decoration: underline;
+
+}
+.logo{
+
+    
+}
+
+/* Media query for mobile responsiveness */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column; /* Display navigation links vertically */
+    }
+
+    nav ul li {
+        margin: 10px 0; /* Add spacing between links */
+    }
+
+    .owner-info {
+        text-align: center; /* Center align the owner info on mobile */
+    }
+
+    .owner-info img {
+        max-width: 80px; /* Reduce image size on mobile */
+        margin-right: 0; /* Remove right margin */
+        margin-bottom: 10px; /* Add spacing below image */
+    }
+
+}
+/*---------------------------------------*/
+
+
+
+
+
+/*--------------------------------------*/
+
+.logoheading{
+    color:#696969 ;
+}
+
+
+/*
+        Time and date
+
+
+
+*/
+/*
+
+@font-face{
+    font-family: 'Digital-7';
+    src:  url('fonts/digital-7.ttf') format('woff2'),   b ,g,mdrx
+    url('digital-7.woff') format('woff');
+}
+*/
+.clockdate-wrapper {
+   
+    padding:25px;
+    max-width:350px;
+    width:100%;
+    text-align:center;
+    border-radius:5px;
+    margin:0 auto;
+  
+}
+#clock{
+    font-family: Digital-7, 'sans-serif';
+    font-size:55px;
+    text-shadow:0px 0px 1px #fff;
+    color:#696969;
+}
+#clock span {
+
+    color: #696969;
+    
+    font-size:50px;
+    position:relative;
+    top:-5px;
+    left:10px;
+}
+#date {
+    letter-spacing:3px;
+    font-size:14px;
+    font-family:arial,sans-serif;
+    color:#696969;
+}
+
+/* end time and date*/
